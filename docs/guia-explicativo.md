@@ -139,7 +139,7 @@ E a regra da escada: **erro barato e reversível → comece no menor esforço pl
 **"Renomear 80 arquivos seguindo o padrêo X."**
 Pronto = todos renomeados no padrêo. Pior passo: aplicar um padrêo (mecânico, com gabarito). Modelo: haiku. Ambiguidade: nenhuma; erro: reversível. Esforço: low. Lote: testa 1, depois manda os 80. → **haiku + low**
 
-**"Escreve o roteiro do vídeo com a voz do INEMA."**
+**"Escreve o roteiro do vídeo com a voz do ARCKHÉ."**
 Pronto = roteiro que soa como a marca. Pior passo: a voz (gosto, sem gabarito) → repertório. Modelo: fable. Ambiguidade da decisêo: baixa (formato conhecido); erro: reversível (é só reescrever). Esforço: low. → **fable + low** — e se houver template garantindo a estrutura, vira empate de gosto: ofereça sonnet+low × fable+low.
 
 **"Migra os dados de produçêo pro schema novo."**

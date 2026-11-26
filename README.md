@@ -10,9 +10,9 @@
 
 Skill de **triagem de modelo e esforêÂ§o** para Claude Code: recebe um problema bruto e decide qual modelo (haiku / sonnet / opus / fable) e qual esforêÂ§o de raciocêÂ­nio (low ê¢â â max) usar em cada parte do trabalho, antes de despachar subagentes ou workflows.
 
-**Guia completo (landing + passo a passo):** https://inematds.github.io/maestro-roteador/guia/
+**Guia completo (landing + passo a passo):** https://linnoff88-dev.github.io/arckhe-/guia/
 **Tira-dêÂºvidas para iniciantes (analogias, FAQ e passo a passo):** [docs/guia-explicativo.md](docs/guia-explicativo.md)
-**ReferêÂªncia de dados de esforêÂ§o (Opus 5.5 e GPT-6 Astra, com grêÂ¡ficos):** https://inematds.github.io/modelos/guia/esforco/ ê¢â¬â evidêÂªncia de terceiros que reforêÂ§a a escada; nêÂ£o altera o procedimento.
+**ReferêÂªncia de dados de esforêÂ§o (Opus 5.5 e GPT-6 Astra, com grêÂ¡ficos):** https://linnoff88-dev.github.io/arckhe-/guia/esforco/ ê¢â¬â evidêÂªncia de terceiros que reforêÂ§a a escada; nêÂ£o altera o procedimento.
 **English version:** [README.en.md](README.en.md) êÂ· [SKILL.en.md](skills/maestro-roteador/SKILL.en.md)
 
 ---
@@ -158,7 +158,7 @@ docs/
 ## InstalaêÂ§êÂ£o
 
 ```bash
-git clone https://github.com/inematds/maestro-roteador.git
+git clone https://github.com/linnoff88-dev/maestro-roteador.git
 ln -sfn "$(pwd)/maestro-roteador/skills/maestro-roteador" ~/.claude/skills/maestro-roteador
 ```
 
@@ -170,17 +170,17 @@ PeêÂ§a a triagem diretamente ê¢â¬â "faz a triagem disso", "qual 
 
 ## Changelog
 
-- **v1.3.3** ê¢â¬â Fable 5.2: Opus 5.5 medium como ponto de partida, escada lowê¢â âhigh sêÂ³ no que falhar, dividir sêÂ³ nos 2 casos medidos, ajudantes com `model`/`effort` fixos, Explore no Haiku, Fable como revisor (base: documento oficial da Anthropic + mediêÂ§êÂµes do [fable-barato](https://github.com/inematds/fable-barato)); campo `dividir` no plano de despacho.
+- **v1.3.3** ê¢â¬â Fable 5.2: Opus 5.5 medium como ponto de partida, escada lowê¢â âhigh sêÂ³ no que falhar, dividir sêÂ³ nos 2 casos medidos, ajudantes com `model`/`effort` fixos, Explore no Haiku, Fable como revisor (base: documento oficial da Anthropic + mediêÂ§êÂµes do [fable-barato](https://github.com/linnoff88-dev/fable-barato)); campo `dividir` no plano de despacho.
 - **v1.2.3** ê¢â¬â versêÂµes em inglêÂªs da skill (SKILL.en.md) e do README (README.en.md).
 - **v1.2.2** ê¢â¬â armadilha do overthinking explicitada (excesso do prêÂ³prio eixo esforêÂ§o; o esforêÂ§o certo êÂ© o menor que cobre o risco) + docs/guia-explicativo.md (tira-dêÂºvidas educativo com analogias, FAQ e passo a passo).
 - **v1.2.1** ê¢â¬â escada com evidêÂªncia (erro barato comeêÂ§a em low e sobe sêÂ³ com evidêÂªncia), 2 armadilhas novas (estêÂ©tica nêÂ£o êÂ© esforêÂ§o; overthinking piora), seêÂ§êÂ£o de cache (troca sêÂ³ em fronteira, subagente grêÂ¡tis em cache, sem keepalive); guia ganha hero com imagem + seêÂ§êÂµes Cache e Harness; README educativo completo.
-- **v1.1.1** ê¢â¬â guia/index.html (landing+guia padrêÂ£o INEMA) + regra anti-overhead na skill.
+- **v1.1.1** ê¢â¬â guia/index.html (landing+guia padrêÂ£o ARCKHÉ) + regra anti-overhead na skill.
 - **v1.1.0** ê¢â¬â empate de gosto oferece escolha custo (sonnet+low) êâ qualidade (fable+low).
 - **v1.0.0** ê¢â¬â skill maestro-roteador: triagem de modelo e esforêÂ§o (matriz de dois eixos).
 
 ## LicenêÂ§a
 
-MIT ê¢â¬â projeto de pesquisa/educaêÂ§êÂ£o INEMA.
+MIT ê¢â¬â projeto de pesquisa/educaêÂ§êÂ£o ARCKHÉ.
 
 ---
 

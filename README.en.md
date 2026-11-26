@@ -6,7 +6,7 @@
 
 A **model-and-effort triage** skill for Claude Code: it takes a raw problem and decides which model (haiku / sonnet / opus / fable) and which reasoning effort (low → max) to use for each part of the work, before dispatching subagents or workflows.
 
-**Full guide (landing + step-by-step, in Portuguese):** https://inematds.github.io/maestro-roteador/guia/
+**Full guide (landing + step-by-step, in Portuguese):** https://linnoff88-dev.github.io/arckhe-/guia/
 **Beginner FAQ with analogies and a step-by-step (Portuguese):** [docs/guia-explicativo.md](docs/guia-explicativo.md)
 
 ---
@@ -153,7 +153,7 @@ README.en.md       # this file
 ## Install
 
 ```bash
-git clone https://github.com/inematds/maestro-roteador.git
+git clone https://github.com/linnoff88-dev/maestro-roteador.git
 ln -sfn "$(pwd)/maestro-roteador/skills/maestro-roteador" ~/.claude/skills/maestro-roteador
 ```
 
@@ -165,14 +165,14 @@ Ask for the triage directly — "triage this", "which model and effort for this?
 
 ## Changelog
 
-- **v1.3.3** — Fable 5.2: Opus 5.5 medium as the starting point, low→high ladder only on failures, split only in the 2 measured cases, helpers with pinned `model`/`effort`, Explore on Haiku, Fable as reviewer (based on Anthropic's official document + [fable-barato](https://github.com/inematds/fable-barato) measurements); `split` field in the dispatch plan.
+- **v1.3.3** — Fable 5.2: Opus 5.5 medium as the starting point, low→high ladder only on failures, split only in the 2 measured cases, helpers with pinned `model`/`effort`, Explore on Haiku, Fable as reviewer (based on Anthropic's official document + [fable-barato](https://github.com/linnoff88-dev/fable-barato) measurements); `split` field in the dispatch plan.
 - **v1.2.3** — English versions of the skill (SKILL.en.md) and README (README.en.md).
 - **v1.2.2** — overthinking trap made explicit (excess of the effort axis itself; the right effort is the smallest that covers the risk) + docs/guia-explicativo.md (educational FAQ with analogies and a step-by-step).
 - **v1.2.1** — evidence ladder (cheap errors start at low and climb only with evidence), 2 new traps (polish is not effort; overthinking makes it worse), cache section (switch only at boundaries, subagents are cache-free, no keepalive); guide got an image hero + Cache and Harness sections; full educational README.
-- **v1.1.1** — guia/index.html (INEMA-standard landing+guide) + anti-overhead rule in the skill.
+- **v1.1.1** — guia/index.html (ARCKHÉ-standard landing+guide) + anti-overhead rule in the skill.
 - **v1.1.0** — taste tie offers the cost (sonnet+low) × quality (fable+low) choice.
 - **v1.0.0** — maestro-roteador skill: model and effort triage (two-axis matrix).
 
 ## License
 
-MIT — INEMA research/education project.
+MIT — ARCKHÉ research/education project.
